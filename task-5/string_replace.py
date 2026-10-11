@@ -1,0 +1,6 @@
+string = input("Enter a string: ")
+old = input("Enter the character/word to replace: ")
+new = input("Enter the new character/word: ")
+lst=list(string)
+x=lst.pop(len(-2))
+print(x)
